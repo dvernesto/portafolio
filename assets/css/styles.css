@@ -1,0 +1,180 @@
+*{
+box-sizing: border-box;
+background-color: #1f1d2c;
+color: #fff;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20%;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18px;
+    width: 250px;
+    height: 200px ;
+    
+}
+p{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+
+
+.percent{
+    font-size: 50px;
+    color: #f1a600;
+    font-weight: bold;
+
+}
+
+ul{ 
+    list-style: none;
+    max-width: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+button{
+    font-size: 25px;
+    padding: 40px;
+    border: none;    
+}
+
+button:hover{
+    color: #e5e5e5;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    flex-wrap: wrap;
+    flex: 50%
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+aside{
+    justify-content: center;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+
+}
+
+header nav{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px 15px;
+    justify-content: right;
+    text-align: center;     
+}
+
+a{
+    padding: 10px 8px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f1a600;
+}
+
+#intro img{
+    width: 30px;
+}
+
+#intro section img{
+    width: 300px;
+}
+
+.exp{
+    font-size: 20px;
+}
+.exp span{
+    color: #f1a600;
+}
+
+#about p{
+    padding: 10px 50px;
+}
+
+.uvm{
+    background-image: url(/portafolio/assets/images/Logos-Imágenes/image\ 9.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    color: #f1a600;
+    text-align: center;
+}
+
+.academlo{  
+    background-image: url(/portafolio/assets/images/Logos-Imágenes/logo_academlo.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    color: #f1a600;
+    text-align: center;
+}
+
+.place p{
+    text-align: right;
+}
+
+.time p{
+    text-align: left;
+    padding: 17px;
+    font-size: 25px ;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.skill p{
+    font-size: 22px;
+    padding: 45px 10px;
+    text-align: left;
+}
+
+#portafolio div{
+    display: flex;
+    padding: 10px 40px;
+
+}
+
+#portafolio img{
+    width: 350px;
+}
+
+.img-rr{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#contact section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+footer{
+    text-align: center;
+}
